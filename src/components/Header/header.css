@@ -1,0 +1,10 @@
+.header {
+  background-color: rgb(86, 172, 86);
+  display: flex;
+  align-items: center;
+  gap: 150px;
+  height: 130px;
+}
+.header h1 {
+  margin-left: 50px;
+}
