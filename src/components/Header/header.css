@@ -8,3 +8,16 @@
 .header h1 {
   margin-left: 50px;
 }
+.pages {
+  display: flex;
+  gap: 50px;
+  cursor: pointer;
+  font-size: 20px;
+  color: rgb(101, 223, 231);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo {
+  cursor: pointer;
+  color: white;
+  font-family: "Brush Script MT", cursive;
+}
