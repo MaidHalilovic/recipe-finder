@@ -2,15 +2,15 @@ import React from "react";
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from "./components/Header/Header";
-import Nav from "./components/Nav/Nav";
+import HomePage from "./pages/HomePage/HomePage";
 
 function App() {
   return (
     <div className='App'>
       <BrowserRouter>
+        <Header />
         <Routes>
-          <Route path='/' element={<Header />} />
-          <Route path='Nav' element={<Nav />} />
+          <Route path='/' element={<HomePage />} />
         </Routes>
       </BrowserRouter>
     </div>
