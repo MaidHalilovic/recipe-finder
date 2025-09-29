@@ -1,0 +1,11 @@
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.selects {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+}

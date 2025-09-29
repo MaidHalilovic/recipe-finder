@@ -1,10 +1,16 @@
 import React from "react";
 import "./homePage.css";
+import Inputs from "../../components/Inputs/Inputs";
 
 const HomePage = () => {
   return (
     <div className='homePage'>
-      <div></div>
+      <div>
+        <h1>Recipes</h1>
+      </div>
+      <div className='inputs'>
+        <Inputs />
+      </div>
     </div>
   );
 };
