@@ -1,6 +1,7 @@
 import React from "react";
 import "./homePage.css";
 import Inputs from "../../components/Inputs/Inputs";
+import RandomMeals from "../../components/RandomMeals/RandomMeals";
 
 const HomePage = () => {
   return (
@@ -10,6 +11,9 @@ const HomePage = () => {
       </div>
       <div className='inputs'>
         <Inputs />
+      </div>
+      <div className='randomMeals'>
+        <RandomMeals />
       </div>
     </div>
   );
