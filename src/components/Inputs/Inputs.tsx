@@ -9,6 +9,8 @@ import TextField from "@mui/material/TextField";
 import Autocomplete from "@mui/material/Autocomplete";
 
 const Inputs: React.FC = () => {
+  const [age, setAge] = React.useState("");
+
   return (
     <div className='inputs'>
       <div className='selects'>
@@ -19,6 +21,7 @@ const Inputs: React.FC = () => {
               labelId='demo-simple-select-label'
               id='demo-simple-select'
               label='Age'
+              value={age}
             ></Select>
           </FormControl>
         </Box>
@@ -29,6 +32,7 @@ const Inputs: React.FC = () => {
               labelId='demo-simple-select-label'
               id='demo-simple-select'
               label='Age'
+              value={age}
             ></Select>
           </FormControl>
         </Box>

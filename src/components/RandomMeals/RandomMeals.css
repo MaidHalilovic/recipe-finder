@@ -1,0 +1,31 @@
+/* ...existing code... */
+.random-meals {
+  padding: 16px;
+}
+
+.meals-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.meal-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+  text-align: center;
+}
+
+.meal-card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  display: block;
+}
+
+.meal-card h3 {
+  font-size: 1rem;
+  margin: 8px;
+}
+/* ...existing code... */
