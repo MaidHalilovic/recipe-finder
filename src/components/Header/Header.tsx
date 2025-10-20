@@ -19,7 +19,6 @@ const Header = () => {
         <h1 onClick={(e) => handleClick(e, "/")}>Eat Well</h1>
       </div>
       <div className='pages'>
-        <h3 onClick={(e) => handleClick(e, "/recipes")}>Recipes</h3>
         <h3 onClick={(e) => handleClick(e, "/category")}>Category</h3>
       </div>
     </div>
