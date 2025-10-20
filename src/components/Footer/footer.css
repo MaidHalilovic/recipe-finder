@@ -1,0 +1,13 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  border-top: 2px solid black;
+  height: 200px;
+}
+.text {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
